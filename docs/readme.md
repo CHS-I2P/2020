@@ -1,5 +1,5 @@
 # CHS-IP
 ## Spring 2020
 
-[Lessons](../lessons)
+[Lessons](../2020/lessons)
 Syllabus
