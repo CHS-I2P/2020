@@ -1,5 +1,5 @@
-# Intro to Programming with Python, 2019-2020, Semester 2
-## 2020
+# Intro to Programming with Python
+2019-2020, Semester Two
 
 ## Welcome
 
