@@ -1,3 +1,4 @@
-# Intro to Programming with Python
-## 2020, Semester 2
-## Clayton High School
+# CHS-IP
+## Spring 2020
+
+Clayton High School
