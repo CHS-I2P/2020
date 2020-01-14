@@ -1,4 +1,4 @@
-# Class Resources
+**Class Resources**
 
-[Lessons](lessons/)
-[Syllabus](#)
+- [Lessons](lessons/)
+- [Syllabus](#)
