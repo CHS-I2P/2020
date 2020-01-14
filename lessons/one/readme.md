@@ -11,7 +11,7 @@ an Introduction
 
 ## Problems
 
-1. ["Hello, world!"](/hello)
+1. ["Hello, world!"](hello/)
    In this first problem you will write a small program that prints text to the terminal of the computer.
    
 1. "A message"
