@@ -1,7 +1,4 @@
-# Intro to Programming with Python
-2019-2020, Semester Two
-
-## Welcome
+## Welcome, students!
 
 This is the Introduction to Programming course using Python for Clayton High School students.
 
