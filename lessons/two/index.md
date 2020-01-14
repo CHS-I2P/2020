@@ -2,7 +2,7 @@
 
 ## Notes
 
-A variable holds a value.
+A variable holds a value. The value can be a character, string, number, or boolean. More about these data types in future lessons.
 
 **input**
 
@@ -17,7 +17,7 @@ print (message)
 $ Hello Python world!
 ```
 
-*Note: You can change the value of a variable at any point.*
+A variable's value, like the name implies, can also change throughout a program.
 
 **input**
 
@@ -36,10 +36,12 @@ $ Hello Python world!
 $ Python is my favorite language!
 ```
 
+In the example above `message` prints two different values. Something to remeber is that computers read code like we do, from left to right, top to bottom.
+
 ### Naming Rules
 
-1. Variables can only contain letters, numbers, and underscores. Variable names can start with a letter or an underscore, but can not start with a number.
-2. Spaces are not allowed in variable names, so we use underscores instead of spaces. For example, use `student_name` instead of `student name`.
+1. Variables can **only** contain letters, numbers, and underscores. Variable names can start with a letter or an underscore, but can **not** start with a number.
+2. Spaces are **not** allowed in variable names, so we use underscores instead of spaces. For example, use `student_name` instead of `student name`.
 3. You cannot use [Python keywords](https://docs.python.org/2.5/ref/keywords.html) as variable names.
 4. Variable names should be descriptive, without being too long. For example `mc_wheels` is better than just `wheels`, and `number_of_wheels_on_a_motorycle`.
 5. Be careful about using the lowercase letter l and the uppercase letter O in places where they could be confused with the numbers 1 and 0.
