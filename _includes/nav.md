@@ -1,4 +1,4 @@
 **Class Resources**
 
-- [Lessons](lessons/)
+- [Lessons]({{ "/lessons" | relative_url }})
 - [Syllabus](#)
