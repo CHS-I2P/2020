@@ -1,1 +1,4 @@
-[Lessons](../lessons/)
+# Class Resources
+
+[Lessons](lessons/)
+[Syllabus](#)
