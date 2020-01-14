@@ -1,4 +1,4 @@
-# Intro to Programming with Python
+# Intro to Programming with Python ![python icon](icons8-python-64.png)
 2019-2020, Semester Two
 
 ## Welcome
