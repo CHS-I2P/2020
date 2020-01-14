@@ -4,7 +4,7 @@
   
    In this first lesson students will quickly see how they can manipulate a computer to do whatever they want it to!
 
-1. [Variables](#)
+1. [Variables](two/)
 
    This lesson introduces variables to the students to show them how programs store information.
 
