@@ -15,5 +15,5 @@ In addition to using Google Classroom for daily agendas and links to other resou
 
 ## Topics
 
-Go to the [lessons](#) page to view the topics that will be covered.
+Go to the [lessons](lessons/) page to view the topics that will be covered.
 
