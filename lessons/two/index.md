@@ -23,10 +23,10 @@ $ Hello Python world!
 
 ```python
 message = "Hello Python world!"
-print(message)
+print (message)
 
 message = "Python is my favorite language!"
-print(message)
+print (message)
 ```
 
 **output**
@@ -52,7 +52,7 @@ There is one common error when using variables, that you will almost certainly e
 
 ```python
 message = "Thank you for sharing Python with the world, Guido!"
-print(mesage)
+print (mesage)
 ```
 
 **output**
@@ -78,7 +78,7 @@ We can fix NameErrors by making sure all of our variable names are spelled consi
 
 ```python
 message = "Thank you for sharing Python with the world, Guido!"
-print(message)
+print (message)
 ```
 
 **output**
@@ -89,13 +89,16 @@ $ Thank you for sharing Python with the world, Guido!
 
 In case you didn't know [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) created the Python language over 20 years ago, and he is considered Python's Benevolent Dictator for Life. Guido still signs off on all major changes to the core Python language.
 
+## Further Reading
+
+...
 
 ## Problems
 
-## 0
-1. Clear out any code you have in your code editor to the right.
-2. On line 1, store your own version of the message "Hello World" in a variable named `my_var`, and, on line 2, `print` it.
+1. [My Own Variable](#)
 
-## 1
-1. on line 3, store a message in a new variable called `new_var`, and then on the next line, `print` that message.
-2. Store a new message in the same variable (`new_var`), and then `print` that new message.
+   Using what you've just learned, you'll create your own variable with custom message.
+   
+1. [One Variable, Two Messages](#)
+
+   In this short problem you'll write one variable that stores two different messages.
