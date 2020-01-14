@@ -29,7 +29,7 @@ For each print statement I write, another line will be printed to the console of
 
 ## Problems
 
-1. ["Hello, world!"](../problems/0/hello/)
+1. ["Hello, world!"](http://lab.cs50.io/CHS-IP/problems/master/0/hello/)
 
    In this first problem you will write a small program that prints text to the terminal of the computer.
    
