@@ -1,5 +1,6 @@
-# Intro to Programming with Python
-Clayton High School, Spring 2020
+# Intro to Programming with Python ![python icon](icons8-python-64.png)
+2019-2020, Semester Two
+
 ## Lessons
 
 Lesson | Title | Description
