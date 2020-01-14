@@ -13,7 +13,7 @@ print (message)
 
 **output**
 
-```
+```bash
 $ Hello Python world!
 ```
 
