@@ -9,5 +9,11 @@ This is the Introduction to Programming course using Python for Clayton High Sch
 
 The goal of this course is for students to become familiar with fundamental programming concepts by learning the Python programming language.
 
-## Expectations
+## Schedule
+
+In addition to using Google Classroom for daily agendas and links to other resources, students and parents can follow along with the assignments using the calendar below.
+
+## Topics
+
+Go to the [lessons](#) page to view the topics that will be covered.
 
