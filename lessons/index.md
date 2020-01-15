@@ -8,7 +8,7 @@
 
    This lesson introduces variables to the students to show them how programs store information.
 
-1. [Strings](#)
+1. [Strings](three/)
 
    In this next lesson, students will learn how to deal with text, or strings, in Python.
 
