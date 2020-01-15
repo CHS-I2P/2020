@@ -1,8 +1,8 @@
 # Strings
 
-- [Notes](##notes)
-- [Further Reading](##further-reading)
-- [Problems](##problems)
+- [Notes](#notes)
+- [Further Reading](#further-reading)
+- [Problems](#problems)
 
 ## Notes
 
