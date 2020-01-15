@@ -40,71 +40,110 @@ Strings are sets of characters. Strings are easier to understand by looking at s
   print (first_name.upper()) # prints with all letters capitalized
 
   first_name = 'Eric'
-  print(first_name.lower()) # prints with all letters lowercase
+  print (first_name.lower()) # prints with all letters lowercase
   
   ```
 
 - You will see this syntax quite often, where a variable name is followed by a dot and then the name of an action, followed by a set of parentheses. The parentheses may be empty, or they may contain some values.
 
-variable_name.action()
+  ```python
+  
+  variable_name.action()
+  
+  ```
 
-In this example, the word "action" is the name of a method. A method is something that can be done to a variable. The methods 'lower', 'title', and 'upper' are all functions that have been written into the Python language, which do something to strings. Later on, you will learn to write your own methods.
+- In this example, the word `action` is the name of a **method**. A **method** is something that can be done to a variable.
+    - The methods `lower`, `title`, and `upper` are all functions that have been written into the Python language, which do something to strings. Later on, you will learn to write your own methods.
 
-Combining strings (concatenation)
-It is often very useful to be able to combine strings into a message or page element that we want to display. Again, this is easier to understand through an example.
+### Combining strings *(concatenation)*
 
-first_name = 'ada'
-last_name = 'lovelace'
+- It is often very useful to be able to combine strings into a message or page element that we want to display. Again, this is easier to understand through an example.
 
-full_name = first_name + ' ' + last_name
+  ```python
 
-print(full_name.title())
-The plus sign combines two strings into one, which is called "concatenation". You can use as many plus signs as you want in composing messages. In fact, many web pages are written as giant strings which are put together through a long series of string concatenations.
+  first_name = 'ada'
+  last_name = 'lovelace'
 
-first_name = 'ada'
-last_name = 'lovelace'
-full_name = first_name + ' ' + last_name
+  full_name = first_name + ' ' + last_name
 
-message = full_name.title() + ' ' + "was considered the world's first computer programmer."
+  print (full_name.title()) # outputs: Ada Lovelace
 
-print(message)
-If you don't know who Ada Lovelace is, you might want to go read what Wikipedia or the Computer History Museum have to say about her. Her life and her work are also the inspiration for the Ada Initiative, which supports women who are involved in technical fields.
+  ```
 
-Whitespace
-The term "whitespace" refers to characters that the computer is aware of, but are invisible to readers. The most common whitespace characters are spaces, tabs, and newlines.
+- The plus sign combines two strings into one, which is called **concatenation**. You can use as many plus signs as you want in composing messages. In fact, many web pages are written as giant strings which are put together through a long series of string concatenations.
 
-Spaces are easy to create, because you have been using them as long as you have been using computers. Tabs and newlines are represented by special character combinations.
+  ```python
 
-The two-character combination "\t" makes a tab appear in a string. Tabs can be used anywhere you like in a string.
+  first_name = 'ada'
+  last_name = 'lovelace'
+  full_name = first_name + ' ' + last_name
 
-print("Hello everyone!")
-print("\tHello everyone!")
-print("Hello \teveryone!")
-The combination "\n" makes a newline appear in a string. You can use newlines anywhere you like in a string.
+  message = full_name.title() + ' ' + "was considered the world's first computer programmer."
 
-print("Hello everyone!")
-print("\nHello everyone!")
-print("Hello \neveryone!")
-print("\n\n\nHello everyone!")
-Stripping whitespace
-Many times you will allow users to enter text into a box, and then you will read that text and use it. It is really easy for people to include extra whitespace at the beginning or end of their text. Whitespace includes spaces, tabs, and newlines.
+  print (message) # outputs: Ada Lovelace was considered the world's first computer programmer.
 
-It is often a good idea to strip this whitespace from strings before you start working with them. For example, you might want to let people log in, and you probably want to treat 'eric ' as 'eric' when you are trying to see if I exist on your system.
+  ```
 
-You can strip whitespace from the left side, the right side, or both sides of a string.
+- If you don't know who Ada Lovelace is, you might want to go read what [Wikipedia](https://en.wikipedia.org/wiki/Ada_Lovelace) or the [Computer History Museum](https://www.computerhistory.org/babbage/adalovelace/) have to say about her. Her life and her work are also the inspiration for the Ada Initiative, which supports women who are involved in technical fields.
 
-name = ' eric '
+### Whitespace
 
-print(name.lstrip())
-print(name.rstrip())
-print(name.strip())
-It's hard to see exactly what is happening, so maybe the following will make it a little more clear:
+- The term **whitespace** refers to characters that the computer is aware of, but are invisible to readers. The most common whitespace characters are spaces, tabs, and newlines.
 
-name = ' eric '
+- Spaces are easy to create, because you have been using them as long as you have been using computers.
 
-print('-' + name.lstrip() + '-')
-print('-' + name.rstrip() + '-')
-print('-' + name.strip() + '-')
+- Tabs and newlines are represented by special character combinations.
+
+- The two-character combination `\t` makes a tab appear in a string. Tabs can be used anywhere you like in a string.
+
+  ```python
+
+  print ("Hello everyone!")
+  print ("\tHello everyone!")
+  print ("Hello \teveryone!")
+
+  ```
+
+- The combination `\n` makes a newline appear in a string. You can use newlines anywhere you like in a string.
+
+  ```python
+
+  print ("Hello everyone!")
+  print ("\nHello everyone!")
+  print ("Hello \neveryone!")
+  print ("\n\n\nHello everyone!")
+
+  ```
+
+### Stripping whitespace
+
+- Many times you will allow users to enter text into a box, and then you will read that text and use it. It is really easy for people to include extra whitespace at the beginning or end of their text. Whitespace includes spaces, tabs, and newlines.
+
+- It is often a good idea to strip this whitespace from strings before you start working with them. For example, you might want to let people log in, and you probably want to treat 'eric ' as 'eric' when you are trying to see if I exist on your system.
+
+- You can strip whitespace from the left side, the right side, or both sides of a string.
+
+  ```python
+
+  name = ' eric '
+
+  print (name.lstrip())
+  print (name.rstrip())
+  print (name.strip())
+
+  ```
+
+- It's hard to see exactly what is happening, so maybe the following will make it a little more clear:
+
+  ```python
+
+  name = ' eric '
+
+  print('-' + name.lstrip() + '-')
+  print('-' + name.rstrip() + '-')
+  print('-' + name.strip() + '-')
+
+  ```
 
 ## Further Reading
 
