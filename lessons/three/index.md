@@ -1,34 +1,44 @@
-Strings
+# Strings
+
 Strings are sets of characters. Strings are easier to understand by looking at some examples.
 
-Single and double quotes
+## Single and double quotes
+
 Strings are contained by either single or double quotes.
 
+```python
 my_string = "This is a double-quoted string."
 my_string = 'This is a single-quoted string.'
+```
+
 This lets us make strings that contain quotations.
 
+```python
 quote = "Linus Torvalds once said, 'Any program is only as good as it is useful.'"
-Changing case
-You can easily change the case of a string, to present it the way you want it to look.
+```
 
-first_name = 'eric'
+## Changing case
 
-print(first_name)
-print(first_name.title())
-It is often good to store data in lower case, and then change the case as you want to for presentation. This catches some TYpos. It also makes sure that 'eric', 'Eric', and 'ERIC' are not considered three different people.
+- You can easily change the case of a string, to present it the way you want it to look.
 
-Some of the most common cases are lower, title, and upper.
+- It is often good to store data in lower case, and then change the case as you want to for presentation. This catches some TYpos. It also makes sure that **'eric'**, **'Eric'**, and **'ERIC'** are not considered three different people.
 
-first_name = 'eric'
+- Some of the most common cases are `.lower()`, `.title()`, and `.upper()`.
 
-print(first_name)
-print(first_name.title())
-print(first_name.upper())
+  ```python
+  
+  first_name = 'eric'
 
-first_name = 'Eric'
-print(first_name.lower())
-You will see this syntax quite often, where a variable name is followed by a dot and then the name of an action, followed by a set of parentheses. The parentheses may be empty, or they may contain some values.
+  print (first_name) // prints the name as-is
+  print (first_name.title()) // prints with the first letter capitalized
+  print (first_name.upper()) // prints with all letters capitalized
+
+  first_name = 'Eric'
+  print(first_name.lower()) // prints with all letters lowercase
+  
+  ```
+
+- You will see this syntax quite often, where a variable name is followed by a dot and then the name of an action, followed by a set of parentheses. The parentheses may be empty, or they may contain some values.
 
 variable_name.action()
 
