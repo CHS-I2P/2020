@@ -1,5 +1,9 @@
 # Strings
 
+- [Notes](##notes)
+- [Further Reading](##further-reading)
+- [Problems](##problems)
+
 ## Notes
 
 Strings are sets of characters. Strings are easier to understand by looking at some examples.
@@ -102,7 +106,11 @@ print('-' + name.lstrip() + '-')
 print('-' + name.rstrip() + '-')
 print('-' + name.strip() + '-')
 
-Exercises
+## Further Reading
+
+...
+
+## Problems
 Someone Said
 Find a quote that you like. Store the quote in a variable, with an appropriate introduction such as "Ken Thompson once said, 'One of my most productive days was throwing away 1000 lines of code'". Print the quote.
 First Name Cases
