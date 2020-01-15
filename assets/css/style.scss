@@ -20,10 +20,4 @@ a {
 ol {
     counter-reset: num -1; // reset counter to -1 (any var name is possible)
 }
-ol li {
-    list-style-type: none; // remove default numbers
-}
-ol li:before {
-    counter-increment: num; // increment counter
-    content: counter(num) ". "; 
-}
+
