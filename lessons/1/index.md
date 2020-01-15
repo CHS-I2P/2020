@@ -4,6 +4,8 @@
   - [Good Comments](#good-comments)
   - [When to Write Comments](#when-to-write-comments)
 - [Exploring the Python Community](#exploring-the-python-community)
+- [Exercises](#)
+- [Problems](#)
 
 # Syntax
 
