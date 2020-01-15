@@ -283,3 +283,157 @@ Strings are sets of characters. Strings are easier to understand by looking at s
 1. [Name Strip](#)
 
    Store your first name in a variable, but include at least two kinds of whitespace on each side of your name. Print your name as it is stored. Print your name with whitespace stripped from the left side, then from the right side, then from both sides.
+
+# Numbers
+
+- Dealing with simple numerical data is fairly straightforward in Python, but there are a few things you should know about.
+
+## Integers
+- You can do all of the basic operations with integers, and everything should behave as you expect.
+  - Addition and subtraction use the standard plus and minus symbols.
+  - Multiplication uses the asterisk, and division uses a forward slash.
+  - Exponents use two asterisks.
+
+  ```python
+
+  print (3+2)
+  print (3-2)
+  print (3*2)
+  print (3/2)
+  print (3**2)
+
+  ```
+
+- You can use parenthesis to modify the standard order of operations.
+
+  ```python
+
+  standard_order = 2 + 3 * 4
+  print (standard_order) # 14
+  my_order = (2 + 3) * 4
+  print (my_order) # 20
+
+  ```
+
+## Floating-Point numbers
+
+- Floating-point numbers refer to any number with a decimal point. Most of the time, you can think of floating point numbers as decimals, and they will behave as you expect them to.
+
+  ```python
+
+  print (0.1 + 0.1)
+
+  ```
+
+- However, sometimes you will get an answer with an unexpectly long decimal part:
+
+  ```python
+
+  print (0.1 + 0.2)
+
+  ```
+
+- This happens because of the way computers represent numbers internally; this has nothing to do with Python itself. Basically, we are used to working in powers of ten, where one tenth plus two tenths is just three tenths. But computers work in powers of two. So your computer has to represent 0.1 in a power of two, and then 0.2 as a power of two, and express their sum as a power of two. There is no exact representation for 0.3 in powers of two, and we see that in the answer to 0.1+0.2.
+
+- Python tries to hide this kind of stuff when possible. Don't worry about it much for now; just don't be surprised by it, and know that we will learn to clean up our results a little later on.
+
+- You can also get the same kind of result with other operations.
+
+  ```python
+
+  print (3 * 0.1)
+
+  ```
+
+## Numbers Problems
+
+1. Arithmetic
+
+   Write a program that prints out the results of at least one calculation for each of the basic operations: addition, subtraction, multiplication, division, and exponents.
+
+1. Order of Operations
+
+   Find a calculation whose result depends on the order of operations. Print the result of this calculation using the standard order of operations. Use parentheses to force a nonstandard order of operations. Print the result of this calculation.
+
+1. Long Decimals
+
+   On paper, 0.1+0.2=0.3. But you have seen that in Python, 0.1+0.2=0.30000000000000004. Find at least one other calculation that results in a long decimal like this.
+
+## Numbers Challenges
+
+1. Neat Arithmetic
+
+   Store the results of at least 5 different calculations in separate variables. Make sure you use each operation at least once. Print a series of informative statements, such as "The result of the calculation 5+7 is 12."
+
+1. Neat Order of Operations
+
+   Take your work for "Order of Operations" above. Instead of just printing the results, print an informative summary of the results. Show each calculation that is being done and the result of that calculation. Explain how you modified the result using parentheses.
+
+1. Long Decimals - Pattern
+   
+   On paper, 0.1+0.2=0.3. But you have seen that in Python, 0.1+0.2=0.30000000000000004. Find a number of other calculations that result in a long decimal like this. Try to find a pattern in what kinds of numbers will result in long decimals.
+
+# Comments
+
+- As you begin to write more complicated code, you will have to spend more time thinking about how to code solutions to the problems you want to solve. Once you come up with an idea, you will spend a fair amount of time troubleshooting your code, and revising your overall approach.
+
+- Comments allow you to write in English, within your program. In Python, any line that starts with a pound (#) symbol is ignored by the Python interpreter.
+
+```python
+
+# This line is a comment.
+print("This line is not a comment, it is code.")
+
+```
+
+## Good Comments
+
+- It is short and to the point, but a complete thought. Most comments should be written in complete sentences.
+- It explains your thinking, so that when you return to the code later you will understand how you were approaching the problem.
+- It explains your thinking, so that others who work with your code will understand your overall approach to a problem.
+- It explains particularly difficult sections of code in detail.
+
+## When to Write Comments
+
+- When you have to think about code before writing it.
+- When you are likely to forget later exactly how you were approaching a problem.
+- When there is more than one way to solve a problem.
+- When others are unlikely to anticipate your way of thinking about a problem.
+- Writing good comments is one of the clear signs of a good programmer. If you have any real interest in taking programming seriously, start using comments now. You will see them throughout the examples in these notebooks.
+
+# Zen of Python
+
+- The Python community is incredibly large and diverse. People are using Python in science, in medicine, in robotics, on the internet, and in any other field you can imagine. This diverse group of thinkers has developed a collective mindset about how programs should be written. If you want to understand Python and the community of Python programmers, it is a good idea to learn the ways Python programmers think.
+
+
+# Overall Challenges
+We have learned quite a bit so far about programming, but we haven't learned enough yet for you to go create something. In the next notebook, things will get much more interesting, and there will be a longer list of overall challenges.
+
+What I've Learned
+Write a program that uses everything you have learned in this notebook at least once.
+Write comments that label each section of your program.
+For each thing your program does, write at least one line of output that explains what your program did.
+For example, you might have one line that stores your name with some whitespace in a variable, and a second line that strips that whitespace from your name:
+# I learned how to strip whitespace from strings.
+name = '\t\teric'
+print("I can strip tabs from my name: " + name.strip())
+Exploring the Python Community
+As I have said earlier, the Python community is incredibly rich and diverse. Here are a couple resources to look at, if you want to do some exploring.
+
+The Python website
+
+The main Python website is probably not of too much interest to you at this point, but it is a great resource to know about as you start to learn more.
+
+PyCon
+
+The Python Conference (PyCon) is an incredible event, and the community is entirely welcoming to new programmers. They happen all over the world, throughout the year. If you can make your way to one of these conferences, you will learn a great deal and meet some really interesting people.
+
+PyLadies
+
+Women and minorities are still under-represented in most technology fields, and the programming world is no different in this regard. That said, the Python community may well be the most welcoming and supportive programming community for women and minorities. There are a number of groups dedicated to bringing women and minorities together around programming in Python, and there are a number of explicit Codes of Conduct for Python-related events.
+
+PyLadies is one of the most visible of these organizations. They are a great resource, so go see what they do and what they have to offer.
+
+Python User Groups
+
+Wherever there are a number of Python programmers, they will find a way to get together. Python user groups are regular meetings of Python users from a local area. Go take a look at the list of user groups, and see if there is one near you.
