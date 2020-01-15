@@ -29,12 +29,12 @@ quote = "Linus Torvalds once said, 'Any program is only as good as it is useful.
   
   first_name = 'eric'
 
-  print (first_name) // prints the name as-is
-  print (first_name.title()) // prints with the first letter capitalized
-  print (first_name.upper()) // prints with all letters capitalized
+  print (first_name) # prints the name as-is
+  print (first_name.title()) # prints with the first letter capitalized
+  print (first_name.upper()) # prints with all letters capitalized
 
   first_name = 'Eric'
-  print(first_name.lower()) // prints with all letters lowercase
+  print(first_name.lower()) # prints with all letters lowercase
   
   ```
 
