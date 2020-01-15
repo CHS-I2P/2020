@@ -1,5 +1,7 @@
 # Strings
 
+## Notes
+
 Strings are sets of characters. Strings are easier to understand by looking at some examples.
 
 ## Single and double quotes
