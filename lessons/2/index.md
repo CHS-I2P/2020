@@ -17,17 +17,17 @@
 
   ```python
   message = "Hello Python world!"
-  print (message) # outputs: Hello Python world!
+  print(message) # outputs: Hello Python world!
   ```
 
 - A variable's value, like the name implies, can also change throughout a program.
 
   ```python
   message = "Hello Python world!"
-  print (message) # outputs: Hello Python world!
+  print(message) # outputs: Hello Python world!
 
   message = "Python is my favorite language!"
-  print (message) # outputs: Python is my favorite language!
+  print(message) # outputs: Python is my favorite language!
   ```
 
 - In the example above `message` prints two different values. Something to remember is that computers read code like we do, from left to right, top to bottom.
@@ -47,7 +47,7 @@
   **input**
   ```python
   message = "Thank you for sharing Python with the world, Guido!"
-  print (mesage)
+  print(mesage)
   ```
 
   **output**
@@ -70,20 +70,10 @@
 
   ```python
   message = "Thank you for sharing Python with the world, Guido!"
-  print (message) # outputs: Thank you for sharing Python with the world, Guido!
+  print(message) # outputs: Thank you for sharing Python with the world, Guido!
   ```
 
   > In case you didn't know [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) created the Python language over 20 years ago, and he is considered Python's Benevolent Dictator for Life. Guido still signs off on all major changes to the core Python language.
-
-## Variables Exercises
-
-1. [My Own Variable](#)
-
-   Using what you've just learned, you'll create your own variable with custom message.
-
-1. [One Variable, Two Messages](#)
-
-   In this short problem you'll write one variable that stores two different messages.
 
 [back to top](#table-of-contents)
 
@@ -117,12 +107,12 @@ Strings are sets of characters. Strings are easier to understand by looking at s
   ```python
   first_name = 'eric'
 
-  print (first_name) # prints the name as-is
-  print (first_name.title()) # prints with the first letter capitalized
-  print (first_name.upper()) # prints with all letters capitalized
+  print(first_name) # prints the name as-is
+  print(first_name.title()) # prints with the first letter capitalized
+  print(first_name.upper()) # prints with all letters capitalized
 
   first_name = 'Eric'
-  print (first_name.lower()) # prints with all letters lowercase
+  print(first_name.lower()) # prints with all letters lowercase
   ```
 
 - You will see this syntax quite often, where a variable name is followed by a dot and then the name of an action, followed by a set of parentheses. The parentheses may be empty, or they may contain some values.
@@ -144,7 +134,7 @@ Strings are sets of characters. Strings are easier to understand by looking at s
 
   full_name = first_name + ' ' + last_name
 
-  print (full_name.title()) # outputs: Ada Lovelace
+  print(full_name.title()) # outputs: Ada Lovelace
   ```
 
 - The plus sign combines two strings into one, which is called **concatenation**. You can use as many plus signs as you want in composing messages. In fact, many web pages are written as giant strings which are put together through a long series of string concatenations.
@@ -156,7 +146,7 @@ Strings are sets of characters. Strings are easier to understand by looking at s
 
   message = full_name.title() + ' ' + "was considered the world's first computer programmer."
 
-  print (message) # outputs: Ada Lovelace was considered the world's first computer programmer.
+  print(message) # outputs: Ada Lovelace was considered the world's first computer programmer.
   ```
 
 - If you don't know who Ada Lovelace is, you might want to go read what [Wikipedia](https://en.wikipedia.org/wiki/Ada_Lovelace) or the [Computer History Museum](https://www.computerhistory.org/babbage/adalovelace/) have to say about her. Her life and her work are also the inspiration for the Ada Initiative, which supports women who are involved in technical fields.
@@ -172,18 +162,18 @@ Strings are sets of characters. Strings are easier to understand by looking at s
 - The two-character combination `\t` makes a tab appear in a string. Tabs can be used anywhere you like in a string.
 
   ```python
-  print ("Hello everyone!")
-  print ("\tHello everyone!")
-  print ("Hello \teveryone!")
+  print("Hello everyone!")
+  print("\tHello everyone!")
+  print("Hello \teveryone!")
   ```
 
 - The combination `\n` makes a newline appear in a string. You can use newlines anywhere you like in a string.
 
   ```python
-  print ("Hello everyone!")
-  print ("\nHello everyone!")
-  print ("Hello \neveryone!")
-  print ("\n\n\nHello everyone!")
+  print("Hello everyone!")
+  print("\nHello everyone!")
+  print("Hello \neveryone!")
+  print("\n\n\nHello everyone!")
   ```
 
 ### Stripping whitespace
@@ -197,9 +187,9 @@ Strings are sets of characters. Strings are easier to understand by looking at s
   ```python
   name = ' eric '
 
-  print (name.lstrip())
-  print (name.rstrip())
-  print (name.strip())
+  print(name.lstrip())
+  print(name.rstrip())
+  print(name.strip())
   ```
 
 - It's hard to see exactly what is happening, so maybe the following will make it a little more clear:
@@ -211,27 +201,6 @@ Strings are sets of characters. Strings are easier to understand by looking at s
   print('-' + name.rstrip() + '-')
   print('-' + name.strip() + '-')
   ```
-
-## Strings Exercises
-1. [Someone Said](#)
-
-   Find a quote that you like. Store the quote in a variable, with an appropriate introduction such as "Ken Thompson once said, 'One of my most productive days was throwing away 1000 lines of code'". Print the quote.
-
-1. [First Name Cases](#)
-
-   Store your first name, in lowercase, in a variable. Using that one variable, print your name in lowercase, Titlecase, and UPPERCASE.
-
-1. [Full Name](#)
-
-   Store your first name and last name in separate variables, and then combine them to print out your full name.
-
-1. [About This Person](#)
-
-   Choose a person you look up to. Store their first and last names in separate variables. Use concatenation to make a sentence about this person, and store that sentence in a variable. Print the sentence.
-
-1. [Name Strip](#)
-
-   Store your first name in a variable, but include at least two kinds of whitespace on each side of your name. Print your name as it is stored. Print your name with whitespace stripped from the left side, then from the right side, then from both sides.
 
 [back to top](#table-of-contents)
 
@@ -246,20 +215,21 @@ Strings are sets of characters. Strings are easier to understand by looking at s
   - Exponents use two asterisks.
 
   ```python
-  print (3+2) # 5
-  print (3-2) # 1
-  print (3*2) # 6
-  print (3/2) # 1.5
-  print (3**2) # 9
+  print(3+2) # 5
+  print(3-2) # 1
+  print(3*2) # 6
+  print(3/2) # 1.5
+  print(3**2) # 9
   ```
 
 - You can use parenthesis to modify the standard order of operations.
 
   ```python
   standard_order = 2 + 3 * 4
-  print (standard_order) # 14
+  print(standard_order) # 14
+
   my_order = (2 + 3) * 4
-  print (my_order) # 20
+  print(my_order) # 20
   ```
 
 ## Floating-Point numbers
@@ -267,13 +237,13 @@ Strings are sets of characters. Strings are easier to understand by looking at s
 - Floating-point numbers refer to any number with a decimal point. Most of the time, you can think of floating point numbers as decimals, and they will behave as you expect them to.
 
   ```python
-  print (0.1 + 0.1) # 0.2
+  print(0.1 + 0.1) # 0.2
   ```
 
 - However, sometimes you will get an answer with an unexpectly long decimal part:
 
   ```python
-  print (0.1 + 0.2) # 0.30000000000000004
+  print(0.1 + 0.2) # 0.30000000000000004
   ```
 
 - This happens because of the way computers represent numbers internally; this has nothing to do with Python itself. Basically, we are used to working in powers of ten, where one tenth plus two tenths is just three tenths. But computers work in powers of two. So your computer has to represent 0.1 in a power of two, and then 0.2 as a power of two, and express their sum as a power of two. There is no exact representation for 0.3 in powers of two, and we see that in the answer to 0.1+0.2.
@@ -283,45 +253,7 @@ Strings are sets of characters. Strings are easier to understand by looking at s
 - You can also get the same kind of result with other operations.
 
   ```python
-  print (3 * 0.1) # 0.30000000000000004
+  print(3 * 0.1) # 0.30000000000000004
   ```
 
-## Numbers Exercises
-
-1. Arithmetic
-
-   Write a program that prints out the results of at least one calculation for each of the basic operations: addition, subtraction, multiplication, division, and exponents.
-
-1. Order of Operations
-
-   Find a calculation whose result depends on the order of operations. Print the result of this calculation using the standard order of operations. Use parentheses to force a nonstandard order of operations. Print the result of this calculation.
-
-1. Long Decimals
-
-   On paper, 0.1+0.2=0.3. But you have seen that in Python, 0.1+0.2=0.30000000000000004. Find at least one other calculation that results in a long decimal like this.
-
-## Numbers Problems
-
-1. Neat Arithmetic
-
-   Store the results of at least 5 different calculations in separate variables. Make sure you use each operation at least once. Print a series of informative statements, such as "The result of the calculation 5+7 is 12."
-
-1. Neat Order of Operations
-
-   Take your work for "Order of Operations" above. Instead of just printing the results, print an informative summary of the results. Show each calculation that is being done and the result of that calculation. Explain how you modified the result using parentheses.
-
-1. Long Decimals - Pattern
-
-   On paper, 0.1+0.2=0.3. But you have seen that in Python, 0.1+0.2=0.30000000000000004. Find a number of other calculations that result in a long decimal like this. Try to find a pattern in what kinds of numbers will result in long decimals.
-
-# Overall Challenges
-We have learned quite a bit so far about programming, but we haven't learned enough yet for you to go create something. In the next notebook, things will get much more interesting, and there will be a longer list of overall challenges.
-
-What I've Learned
-Write a program that uses everything you have learned in this notebook at least once.
-Write comments that label each section of your program.
-For each thing your program does, write at least one line of output that explains what your program did.
-For example, you might have one line that stores your name with some whitespace in a variable, and a second line that strips that whitespace from your name:
-# I learned how to strip whitespace from strings.
-name = '\t\teric'
-print("I can strip tabs from my name: " + name.strip())
+[back to top](#table-of-contents)
