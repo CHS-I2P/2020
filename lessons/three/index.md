@@ -1,10 +1,10 @@
 # Strings
 
-## Notes
+## NOTES
 
 Strings are sets of characters. Strings are easier to understand by looking at some examples.
 
-## Single and double quotes
+### Single and double quotes
 
 - Strings are contained by either single or double quotes.
 
@@ -19,7 +19,7 @@ Strings are sets of characters. Strings are easier to understand by looking at s
   quote = "Linus Torvalds once said, 'Any program is only as good as it is useful.'"
   ```
 
-## Changing case
+### Changing case
 
 - You can easily change the case of a string, to present it the way you want it to look.
 
