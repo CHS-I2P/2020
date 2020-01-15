@@ -1,6 +1,6 @@
 # Lessons
 
-1. ["Hello, world!"](one/)
+0. ["Hello, world!"](one/)
   
    In this first lesson students will quickly see how they can manipulate a computer to do whatever they want it to!
 
