@@ -4,18 +4,18 @@ Strings are sets of characters. Strings are easier to understand by looking at s
 
 ## Single and double quotes
 
-Strings are contained by either single or double quotes.
+- Strings are contained by either single or double quotes.
 
-```python
-my_string = "This is a double-quoted string."
-my_string = 'This is a single-quoted string.'
-```
+  ```python
+  my_string = "This is a double-quoted string."
+  my_string = 'This is a single-quoted string.'
+  ```
 
-This lets us make strings that contain quotations.
+- This lets us make strings that contain quotations.
 
-```python
-quote = "Linus Torvalds once said, 'Any program is only as good as it is useful.'"
-```
+  ```python
+  quote = "Linus Torvalds once said, 'Any program is only as good as it is useful.'"
+  ```
 
 ## Changing case
 
