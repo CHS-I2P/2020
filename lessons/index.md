@@ -1,8 +1,6 @@
 # Lessons
 
-0. ["Hello, world!"](1/)
-
-   In this first lesson students will quickly see how they can manipulate a computer to do whatever they want it to!
+1. ["Hello, world!"](1/)
 
 1. [Variables & Types](2/)
 
