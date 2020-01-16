@@ -3,5 +3,5 @@
 **Class Resources**
 
 - [Lessons]({{ "/lessons" | relative_url }})
-- [Exercises](#)
+- [Exercises]({{ "/exercises" | relative_url }})
 - [Syllabus](#)
