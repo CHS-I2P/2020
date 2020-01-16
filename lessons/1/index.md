@@ -1,3 +1,8 @@
+**tl;dr**
+
+In this first lesson, you will quickly see how you can manipulate a computer to do whatever you want it to!
+
+
 # Table of Contents
 - [Syntax](#syntax)
 - [Comments](#comments)
