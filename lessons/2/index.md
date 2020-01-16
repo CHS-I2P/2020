@@ -10,8 +10,6 @@
 - [Numbers](#numbers)
   - [Integers](#integers)
   - [Floating-point Numbers](#floating-point-numbers)
-- [Exercises](#)
-- [Problems](#)
 
 # Variables
 
