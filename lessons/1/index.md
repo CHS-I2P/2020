@@ -41,7 +41,9 @@
 - It is short and to the point, but a complete thought. Most comments should be written in complete sentences.
 
 - It explains your thinking, so that when you return to the code later you will understand how you were approaching the problem.
+
 - It explains your thinking, so that others who work with your code will understand your overall approach to a problem.
+
 - It explains particularly difficult sections of code in detail.
 
 ## When to Write Comments
@@ -49,8 +51,11 @@
 - When you have to think about code before writing it.
 
 - When you are likely to forget later exactly how you were approaching a problem.
+
 - When there is more than one way to solve a problem.
+
 - When others are unlikely to anticipate your way of thinking about a problem.
+
 - Writing good comments is one of the clear signs of a good programmer. If you have any real interest in taking programming seriously, start using comments now. You will see them throughout the examples in these notebooks.
 
 [back to top](#table-of-contents)
