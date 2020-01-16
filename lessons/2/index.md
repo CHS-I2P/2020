@@ -1,3 +1,8 @@
+## tl;dr
+
+In this lesson, you will learn to store information in variables. You will also learn about two types of data: strings, which are sets of characters, and numerical data types.
+
+
 # Table of Contents
 - [Variables](#variables)
   - [Naming Rules](#naming-rules)

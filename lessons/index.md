@@ -4,8 +4,6 @@
 
 1. [Variables & Types](2/)
 
-   In this lesson, you will learn to store information in variables. You will also learn about two types of data: strings, which are sets of characters, and numerical data types.
-
 1. [Lists](#)
 
    In this lesson, you will learn to store more than one value in a single variable. This by itself is one of the most powerful ideas in programming, and it introduces a number of other central concepts such as loops. If this section ends up making sense to you, you will be able to start writing some interesting programs, and you can be more confident that you will be able to develop overall competence as a programmer.

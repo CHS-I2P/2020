@@ -1,4 +1,4 @@
-**tl;dr**
+## tl;dr
 
 In this first lesson, you will quickly see how you can manipulate a computer to do whatever you want it to!
 
