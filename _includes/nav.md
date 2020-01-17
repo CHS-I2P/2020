@@ -1,7 +1,5 @@
----
-
 **Class Resources**
 
-- [Lessons]({{ "/lessons" | relative_url }})
+- [Topics]({{ "/topics" | relative_url }})
 - [Exercises]({{ "/exercises" | relative_url }})
 - [Syllabus](#)

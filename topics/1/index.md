@@ -4,11 +4,15 @@ In this first lesson, you will quickly see how you can manipulate a computer to 
 
 
 # Table of Contents
+- [Setup](#Setup)
 - [Syntax](#syntax)
 - [Comments](#comments)
   - [Good Comments](#good-comments)
   - [When to Write Comments](#when-to-write-comments)
-- [Exploring the Python Community](#exploring-the-python-community)
+
+# Setup
+
+
 
 # Syntax
 

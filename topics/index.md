@@ -1,8 +1,8 @@
-# Lessons
+# Topics
 
-1. ["Hello, world!"](1/)
+1. [Setup, Syntax, & Comments](1/)
 
-1. [Variables & Types](2/)
+1. [Variables, Strings, & Numbers](2/)
 
 1. [Lists](#)
 
