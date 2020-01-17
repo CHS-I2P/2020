@@ -2,7 +2,7 @@
 
 *Exercises should be completed in order unless otherwise specified. Please follow [Academic Honesty](#) guidelines when completing exercises.*
 
-- [Exercise 1](#)
+- [Exercise 1](../problems/1)
 - [Exercise 2](#)
 - [Exercise 3](#)
 - [Exercise 4](#)
