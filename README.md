@@ -1,4 +1,4 @@
-## Welcome, students!
+# Welcome, students!
 
 This is the Introduction to Programming course using Python for Clayton High School students.
 
