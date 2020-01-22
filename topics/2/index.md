@@ -4,6 +4,8 @@ In this lesson, you will learn to store information in variables. You will also 
 
 
 # Table of Contents
+
+**NOTES**
 - [Variables](#variables)
   - [Naming Rules](#naming-rules)
   - [NameError](#nameerror)
@@ -15,6 +17,8 @@ In this lesson, you will learn to store information in variables. You will also 
 - [Numbers](#numbers)
   - [Integers](#integers)
   - [Floating-point Numbers](#floating-point-numbers)
+- [Exercises](#exercises)
+- [Challenges](#challenges)
 
 # Variables
 
@@ -262,3 +266,63 @@ Strings are sets of characters. Strings are easier to understand by looking at s
   ```
 
 [back to top](#table-of-contents)
+
+# Exercises
+
+*exercise file names should follow the following format: `l#e#.py`*
+
+1. Hello World - variable
+   - Store your own version of the message "Hello World" in a variable, and print it.
+
+1. One Variable, Two Messages:
+   - Store a message in a variable, and then print that message.
+   - Store a new message in the same variable, and then print that new message.
+
+1. Someone Said
+   - Find a quote that you like. Store the quote in a variable, with an appropriate introduction such as "Ken Thompson once said, 'One of my most productive days was throwing away 1000 lines of code'".
+   - Print the quote.
+
+1. First Name Cases
+   - Store your first name, in lowercase, in a variable.
+   - Using that one variable, print your name in lowercase, Titlecase, and UPPERCASE.
+
+1. Full Name
+   - Store your first name and last name in separate variables, and then combine them to print out your full name.
+
+1. About This Person
+   - Choose a person you look up to. Store their first and last names in separate variables.
+   - Use concatenation to make a sentence about this person, and store that sentence in a variable.-
+   - Print the sentence.
+
+1. Name Strip
+   - Store your first name in a variable, but include at least two kinds of whitespace on each side of your name.
+   - Print your name as it is stored.
+   - Print your name with whitespace stripped from the left side, then from the right side, then from both sides.
+
+1. Arithmetic
+   - Write a program that prints out the results of at least one calculation for each of the basic operations: addition, subtraction, multiplication, division, and exponents.
+
+1. Order of Operations
+   - Find a calculation whose result depends on the order of operations.
+   - Print the result of this calculation using the standard order of operations.
+   - Use parentheses to force a nonstandard order of operations. Print the result of this calculation.
+
+1. Long Decimals
+   - On paper, 0.1+0.2=0.3. But you have seen that in Python, 0.1+0.2=0.30000000000000004.
+   - Find at least one other calculation that results in a long decimal like this.
+
+# Challenges
+
+*challenge file names should follow the following format: `l#c#.py`*
+
+1. Neat Arithmetic
+   - Store the results of at least 5 different calculations in separate variables. Make sure you use each operation at least once.
+   - Print a series of informative statements, such as "The result of the calculation 5+7 is 12."
+
+1. Neat Order of Operations
+   - Take your work for "Order of Operations" above.
+   - Instead of just printing the results, print an informative summary of the results. Show each calculation that is being done and the result of that calculation. Explain how you modified the result using parentheses.
+
+1. Long Decimals - Pattern
+   - On paper, 0.1+0.2=0.3. But you have seen that in Python, 0.1+0.2=0.30000000000000004.
+   - Find a number of other calculations that result in a long decimal like this. Try to find a pattern in what kinds of numbers will result in long decimals.
