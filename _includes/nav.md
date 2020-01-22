@@ -1,4 +1,4 @@
 ### Class Resources
 
-- [Topics]({{ "/topics" | relative_url }})
+- [Lessons]({{ "/topics" | relative_url }})
 - [Syllabus](#)

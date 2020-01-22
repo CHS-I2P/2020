@@ -11,9 +11,8 @@ In this first lesson, you will quickly see how you can manipulate a computer to 
 - [Comments](#comments)
   - [Good Comments](#good-comments)
   - [When to Write Comments](#when-to-write-comments)
+- [Exercises](#)
 
-**Exercises**
-- [Hello, world!](#)
 # Setup
 
 
