@@ -7,7 +7,6 @@ In this lesson, you will learn to store information in variables. You will also 
 
 ## Table of Contents
 
-**NOTES**
 - [Variables](#variables)
   - [Naming Rules](#naming-rules)
   - [NameError](#nameerror)
