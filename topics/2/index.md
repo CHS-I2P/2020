@@ -1,9 +1,11 @@
-## tl;dr
+# Lesson 2
+
+### tl;dr
 
 In this lesson, you will learn to store information in variables. You will also learn about two types of data: strings, which are sets of characters, and numerical data types.
 
 
-# Table of Contents
+## Table of Contents
 
 **NOTES**
 - [Variables](#variables)
@@ -20,7 +22,7 @@ In this lesson, you will learn to store information in variables. You will also 
 - [Exercises](#exercises)
 - [Challenges](#challenges)
 
-# Variables
+## Variables
 
 - A variable holds a value. The value can be a character, string, number, or boolean. More about these data types in future lessons.
 
@@ -41,7 +43,7 @@ In this lesson, you will learn to store information in variables. You will also 
 
 - In the example above `message` prints two different values. Something to remember is that computers read code like we do, from left to right, top to bottom.
 
-## Naming Rules
+### Naming Rules
 
 1. Variables can **only** contain letters, numbers, and underscores. Variable names can start with a letter or an underscore, but can **not** start with a number.
 2. Spaces are **not** allowed in variable names, so we use underscores instead of spaces. For example, use `student_name` instead of `student name`.
@@ -49,7 +51,7 @@ In this lesson, you will learn to store information in variables. You will also 
 4. Variable names should be descriptive, without being too long. For example `mc_wheels` is better than just `wheels`, and `number_of_wheels_on_a_motorycle`.
 5. Be careful about using the lowercase letter l and the uppercase letter O in places where they could be confused with the numbers 1 and 0.
 
-## NameError
+### NameError
 
 - There is one common error when using variables, that you will almost certainly encounter at some point. Take a look at this code, and see if you can figure out why it causes an error.
 
@@ -86,11 +88,11 @@ In this lesson, you will learn to store information in variables. You will also 
 
 [back to top](#table-of-contents)
 
-# Strings
+## Strings
 
 Strings are sets of characters. Strings are easier to understand by looking at some examples.
 
-## Single and double quotes
+### Single and double quotes
 
 - Strings are contained by either single or double quotes.
 
@@ -105,7 +107,7 @@ Strings are sets of characters. Strings are easier to understand by looking at s
   quote = "Linus Torvalds once said, 'Any program is only as good as it is useful.'"
   ```
 
-## Changing case
+### Changing case
 
 - You can easily change the case of a string, to present it the way you want it to look.
 
@@ -133,7 +135,7 @@ Strings are sets of characters. Strings are easier to understand by looking at s
 - In this example, the word `action` is the name of a **method**. A **method** is something that can be done to a variable.
     - The methods `lower`, `title`, and `upper` are all functions that have been written into the Python language, which do something to strings. Later on, you will learn to write your own methods.
 
-## Combining strings
+### Combining strings
 
 - It is often very useful to be able to combine strings into a message or page element that we want to display. Again, this is easier to understand through an example.
 
@@ -160,7 +162,7 @@ Strings are sets of characters. Strings are easier to understand by looking at s
 
 - If you don't know who Ada Lovelace is, you might want to go read what [Wikipedia](https://en.wikipedia.org/wiki/Ada_Lovelace) or the [Computer History Museum](https://www.computerhistory.org/babbage/adalovelace/) have to say about her. Her life and her work are also the inspiration for the Ada Initiative, which supports women who are involved in technical fields.
 
-## Whitespace
+### Whitespace
 
 - The term **whitespace** refers to characters that the computer is aware of, but are invisible to readers. The most common whitespace characters are spaces, tabs, and newlines.
 
@@ -213,11 +215,11 @@ Strings are sets of characters. Strings are easier to understand by looking at s
 
 [back to top](#table-of-contents)
 
-# Numbers
+## Numbers
 
 - Dealing with simple numerical data is fairly straightforward in Python, but there are a few things you should know about.
 
-## Integers
+### Integers
 - You can do all of the basic operations with integers, and everything should behave as you expect.
   - Addition and subtraction use the standard plus and minus symbols.
   - Multiplication uses the asterisk, and division uses a forward slash.
@@ -241,7 +243,7 @@ Strings are sets of characters. Strings are easier to understand by looking at s
   print(my_order) # 20
   ```
 
-## Floating-Point numbers
+### Floating-Point numbers
 
 - Floating-point numbers refer to any number with a decimal point. Most of the time, you can think of floating point numbers as decimals, and they will behave as you expect them to.
 
@@ -267,7 +269,7 @@ Strings are sets of characters. Strings are easier to understand by looking at s
 
 [back to top](#table-of-contents)
 
-# Exercises
+## Exercises
 
 *exercise file names should follow the following format: `l#e#.py`*
 
@@ -311,7 +313,7 @@ Strings are sets of characters. Strings are easier to understand by looking at s
    - On paper, 0.1+0.2=0.3. But you have seen that in Python, 0.1+0.2=0.30000000000000004.
    - Find at least one other calculation that results in a long decimal like this.
 
-# Challenges
+## Challenges
 
 *challenge file names should follow the following format: `l#c#.py`*
 
@@ -326,3 +328,5 @@ Strings are sets of characters. Strings are easier to understand by looking at s
 1. Long Decimals - Pattern
    - On paper, 0.1+0.2=0.3. But you have seen that in Python, 0.1+0.2=0.30000000000000004.
    - Find a number of other calculations that result in a long decimal like this. Try to find a pattern in what kinds of numbers will result in long decimals.
+
+[back to top](#table-of-contents)

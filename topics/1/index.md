@@ -1,9 +1,11 @@
-## tl;dr
+# Lesson 1
+
+### tl;dr
 
 In this first lesson, you will quickly see how you can manipulate a computer to do whatever you want it to!
 
 
-# Table of Contents
+## Table of Contents
 
 **Notes**
 - [Setup](#Setup)
@@ -13,11 +15,11 @@ In this first lesson, you will quickly see how you can manipulate a computer to 
   - [When to Write Comments](#when-to-write-comments)
 - [Exercises](#)
 
-# Setup
+## Setup
 
 
 
-# Syntax
+## Syntax
 
 - When programmers are learning a new language, we tend to write a one-line program that prints some version of the message *"Hello world!"*. This simple program shows will output text to the console (terminal or command prompt) of your computer.
 
@@ -35,7 +37,7 @@ In this first lesson, you will quickly see how you can manipulate a computer to 
 
 [back to top](#table-of-contents)
 
-# Comments
+## Comments
 
 - As you begin to write more complicated code, you will have to spend more time thinking about how to code solutions to the problems you want to solve. Once you come up with an idea, you will spend a fair amount of time troubleshooting your code, and revising your overall approach.
 
@@ -46,7 +48,7 @@ In this first lesson, you will quickly see how you can manipulate a computer to 
   print("This line is not a comment, it is code.")
   ```
 
-## Good Comments
+### Good Comments
 
 - It is short and to the point, but a complete thought. Most comments should be written in complete sentences.
 
@@ -56,7 +58,7 @@ In this first lesson, you will quickly see how you can manipulate a computer to 
 
 - It explains particularly difficult sections of code in detail.
 
-## When to Write Comments
+### When to Write Comments
 
 - When you have to think about code before writing it.
 
@@ -70,7 +72,7 @@ In this first lesson, you will quickly see how you can manipulate a computer to 
 
 [back to top](#table-of-contents)
 
-# Exploring the Python Community
+## Exploring the Python Community
 
 As I have said earlier, the Python community is incredibly rich and diverse. Here are a couple resources to look at, if you want to do some exploring.
 
